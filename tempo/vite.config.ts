@@ -16,7 +16,20 @@ export default defineConfig(async () => {
       postcss: projectRoot,
     },
     resolve: {
-      dedupe: ["react", "react-dom", "react-router-dom"],
+      alias: {
+        react: path.resolve(tempoRoot, "node_modules/react"),
+        "react-dom": path.resolve(tempoRoot, "node_modules/react-dom"),
+        "react/jsx-dev-runtime": path.resolve(
+          tempoRoot,
+          "node_modules/react/jsx-dev-runtime.js",
+        ),
+        "react/jsx-runtime": path.resolve(
+          tempoRoot,
+          "node_modules/react/jsx-runtime.js",
+        ),
+        "framer-motion": path.resolve(tempoRoot, "node_modules/framer-motion"),
+      },
+      dedupe: ["react", "react-dom", "framer-motion", "react-router-dom"],
     },
     plugins: [
       tempoVitePlugin(),

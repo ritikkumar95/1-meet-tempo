@@ -1,5 +1,6 @@
 import type { TempoPage, TempoStoryboard } from 'tempo-sdk';
 import { Heart, Search, MessageCircle, Calendar } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { Button } from '@/design-system/primitives/Button';
 import { Frame, CanvasCover } from '@/design-system/canvas-chrome';
 import { HomePage } from '@/pages/HomePage';
@@ -63,7 +64,7 @@ function EmptyState({
   body,
   cta,
 }: {
-  icon: React.ComponentType<{ size?: number; strokeWidth?: number; color?: string }>;
+  icon: LucideIcon;
   title: string;
   body: string;
   cta: string;

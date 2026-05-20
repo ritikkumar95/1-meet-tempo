@@ -1,4 +1,5 @@
 import type { TempoPage, TempoStoryboard } from 'tempo-sdk';
+import type { ReactNode } from 'react';
 import { Heart, Search, Star, MapPin, Check, ArrowRight, ArrowDown, Eye, Send } from 'lucide-react';
 import {
   TitleSpread,
@@ -343,7 +344,7 @@ function IndexCard({
   name: string;
   slug: string;
   blurb: string;
-  preview?: React.ReactNode;
+  preview?: ReactNode;
   previewBg?: string;
 }) {
   return (
@@ -471,7 +472,9 @@ export const Index: TempoStoryboard = {
               ),
             },
           ].map((c) => (
-            <IndexCard key={c.slug} num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            <div key={c.slug}>
+              <IndexCard num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            </div>
           ))}
         </div>
       </div>
@@ -559,7 +562,9 @@ export const Index: TempoStoryboard = {
               ),
             },
           ].map((c) => (
-            <IndexCard key={c.slug} num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            <div key={c.slug}>
+              <IndexCard num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            </div>
           ))}
         </div>
       </div>
@@ -680,7 +685,9 @@ export const Index: TempoStoryboard = {
               ),
             },
           ].map((c) => (
-            <IndexCard key={c.slug} num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            <div key={c.slug}>
+              <IndexCard num={c.num} name={c.name} slug={c.slug} blurb={c.blurb} preview={c.preview} previewBg={c.previewBg} />
+            </div>
           ))}
         </div>
       </div>
@@ -705,7 +712,7 @@ function LegendRow({
   title: string;
   description: string;
   possibilities: string[];
-  graphic: React.ReactNode;
+  graphic: ReactNode;
   first?: boolean;
 }) {
   return (
