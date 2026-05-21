@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "install": "npm install && npm install --prefix ..",
+    "install": "cd ../ && npm install",
     "start": "npm run dev"
   }
 }
