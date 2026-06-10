@@ -31,7 +31,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: 0, width: 1280, height: 362, intrinsicSizing: "root-element" },
+  layout: { x: 0, y: 0, width: 1692, height: 200, intrinsicSizing: "root-element" },
 };
 
 /* ── UI3-style section helpers ───────────────────────────────────── */
@@ -220,7 +220,7 @@ export const Badges: TempoStoryboard = {
     </div>
   ),
   name: "01 · Badges",
-  layout: { x: 1330, y: 0, width: 1012, height: 3091, intrinsicSizing: "root-element" },
+  layout: { x: 1773, y: 0, width: 1871, height: 3093, intrinsicSizing: "root-element" },
 };
 
 /* ── 02 · In situ ────────────────────────────────────────────────── */
@@ -271,5 +271,5 @@ export const InSitu: TempoStoryboard = {
     </MemoryRouter>
   ),
   name: "02 · In situ",
-  layout: { x: 2388, y: -4, width: 1155, height: 1370, intrinsicSizing: "root-element" },
+  layout: { x: 3828, y: 0, width: 2831, height: 4133, intrinsicSizing: "root-element" },
 };

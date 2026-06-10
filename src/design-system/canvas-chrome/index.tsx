@@ -257,14 +257,8 @@ export function CanvasCover({
 }) {
   return (
     <div
-      className="w-[1280px] flex flex-col gap-[44px]"
-      style={{
-        background: DARK.paper,
-        color: DARK.ink,
-        fontFamily: FONT_SANS,
-        padding: 72,
-        position: "relative",
-      }}
+      className="w-[1353px] flex flex-col gap-[44px] h-[200px]"
+      style={{ background: DARK.paper, color: DARK.ink, fontFamily: FONT_SANS, padding: 72, position: "relative" }}
     >
       <HavnMark />
       <p

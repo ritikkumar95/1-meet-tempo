@@ -239,7 +239,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: 0, width: 1280, height: 362, intrinsicSizing: "root-element" },
+  layout: { x: 0, y: 0, width: 1692, height: 200, intrinsicSizing: "root-element" },
 };
 
 /* ── 01 · Anatomy ────────────────────────────────────────────────── */
@@ -311,7 +311,7 @@ export const Anatomy: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1330, y: 0, width: 1280, height: 1155, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 1112, intrinsicSizing: "root-element" },
 };
 
 /* ── 02 · Variants ───────────────────────────────────────────────── */
@@ -464,7 +464,7 @@ export const Variants: TempoStoryboard = {
     </PageShell>
   ),
   name: "02 · Variants",
-  layout: { x: 2660, y: 0, width: 1280, height: 3208, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 2808, intrinsicSizing: "root-element" },
 };
 
 /* ── 03 · Sizes ──────────────────────────────────────────────────── */
@@ -543,7 +543,7 @@ export const Sizes: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · Sizes",
-  layout: { x: 3990, y: 0, width: 1280, height: 1938, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 1521, intrinsicSizing: "root-element" },
 };
 
 /* ── 04 · Icons ──────────────────────────────────────────────────── */
@@ -655,7 +655,7 @@ export const Content: TempoStoryboard = {
     </PageShell>
   ),
   name: "05 · Content",
-  layout: { x: 6650, y: 0, width: 1280, height: 1631, intrinsicSizing: "root-element" },
+  layout: { x: 6650, y: 0, width: 1280, height: 1521, intrinsicSizing: "root-element" },
 };
 
 /* ── 06 · In situ ────────────────────────────────────────────────── */
@@ -746,5 +746,5 @@ export const InSitu: TempoStoryboard = {
     </div>
   ),
   name: "06 · In situ",
-  layout: { x: 7980, y: 0, width: 1020, height: 1914, intrinsicSizing: "root-element" },
+  layout: { x: 7980, y: 0, width: 950, height: 1914, intrinsicSizing: "root-element" },
 };

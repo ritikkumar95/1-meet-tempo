@@ -479,7 +479,7 @@ export const Anatomy: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1330, y: 0, width: 1280, height: 2409, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 2192, intrinsicSizing: "root-element" },
 };
 
 /* ── 03 · Surfaces ───────────────────────────────────────────────── */
@@ -829,5 +829,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "07 · In situ",
-  layout: { x: 9310, y: 0, width: 1280, height: 908, intrinsicSizing: "root-element" },
+  layout: { x: 9310, y: 0, width: 1280, height: 887, intrinsicSizing: "root-element" },
 };

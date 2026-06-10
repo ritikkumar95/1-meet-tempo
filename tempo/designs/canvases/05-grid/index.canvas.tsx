@@ -296,7 +296,7 @@ export const Basics: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Basics",
-  layout: { x: 1330, y: 0, width: 1280, height: 1791, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 2219, intrinsicSizing: "root-element" },
 };
 
 /* ── 02 · Spacing ────────────────────────────────────────────────── */
