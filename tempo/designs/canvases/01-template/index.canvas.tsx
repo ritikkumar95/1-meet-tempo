@@ -106,7 +106,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: 0, width: 1692, height: 200, intrinsicSizing: "root-element" },
+  layout: { x: -169, y: 0, width: 1406, height: 351, intrinsicSizing: "root-element" },
 };
 
 /* ── Page groups — each a vertical column of states (UI3 templates style) ── */

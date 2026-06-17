@@ -479,7 +479,7 @@ export const Anatomy: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1330, y: 0, width: 1280, height: 2192, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 2409, intrinsicSizing: "root-element" },
 };
 
 /* ── 03 · Surfaces ───────────────────────────────────────────────── */
@@ -519,7 +519,7 @@ export const Surfaces: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · Surfaces",
-  layout: { x: 3990, y: 0, width: 1280, height: 969, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 970, intrinsicSizing: "root-element" },
 };
 
 /* ── 04 · Text colours ───────────────────────────────────────────── */
@@ -829,5 +829,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "07 · In situ",
-  layout: { x: 9310, y: 0, width: 1280, height: 887, intrinsicSizing: "root-element" },
+  layout: { x: 9310, y: 0, width: 1280, height: 909, intrinsicSizing: "root-element" },
 };

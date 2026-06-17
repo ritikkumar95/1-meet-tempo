@@ -327,7 +327,7 @@ export const Cover: TempoStoryboard = {
     </div>
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: 0, width: 1920, height: 525 , intrinsicSizing: "root-element" },
+  layout: { x: 0, y: 0, width: 1920, height: 1551 , intrinsicSizing: "root-element" },
 };
 
 /* ── Index — workspace map ────────────────────────────────────────── */
@@ -695,7 +695,7 @@ export const Index: TempoStoryboard = {
     </div>
   ),
   name: "01 · Index",
-  layout: { x: 2041, y: 0, width: 1737, height: 1406, intrinsicSizing: "root-element" },
+  layout: { x: 2041, y: 0, width: 1280, height: 2276, intrinsicSizing: "root-element" },
 };
 
 /* ── Legend — visual conventions ──────────────────────────────────── */
@@ -867,7 +867,7 @@ export const Legend: TempoStoryboard = {
     </div>
   ),
   name: "02 · Legend",
-  layout: { x: 3923, y: 0, width: 1138, height: 1217, intrinsicSizing: "root-element" },
+  layout: { x: 3321, y: 1, width: 1280, height: 1137, intrinsicSizing: "root-element" },
 };
 
 /* ── 03 · Anatomy ────────────────────────────────────────────────── */

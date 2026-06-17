@@ -67,7 +67,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: -2, width: 1468, height: 202, intrinsicSizing: "root-element" },
+  layout: { x: 0, y: -2, width: 1406, height: 351, intrinsicSizing: "root-element" },
 };
 
 /* ── Icon cell helper ────────────────────────────────────────────── */
@@ -394,7 +394,7 @@ export const Icons: TempoStoryboard = {
     </SizePage>
   ),
   name: "01 · Icons",
-  layout: { x: 1557, y: 0, width: 1280, height: 1820, intrinsicSizing: "root-element" },
+  layout: { x: 1557, y: 0, width: 1280, height: 2081, intrinsicSizing: "root-element" },
 };
 
 /* ── 02 · Imagery ────────────────────────────────────────────────── */
@@ -477,5 +477,5 @@ export const Imagery: TempoStoryboard = {
     </SizePage>
   ),
   name: "02 · Imagery",
-  layout: { x: 2957, y: 0, width: 1280, height: 1640, intrinsicSizing: "root-element" },
+  layout: { x: 2957, y: 0, width: 1280, height: 1665, intrinsicSizing: "root-element" },
 };

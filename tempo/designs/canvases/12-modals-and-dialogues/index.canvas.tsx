@@ -176,7 +176,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: 0, y: -7, width: 1267, height: 207, intrinsicSizing: "root-element" },
+  layout: { x: -63, y: 0, width: 1406, height: 351, intrinsicSizing: "root-element" },
 };
 
 /* ── 01 · Anatomy ────────────────────────────────────────────────── */
@@ -223,7 +223,7 @@ export const Anatomy: TempoStoryboard = {
     </div>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1423, y: 0, width: 954, height: 1683, intrinsicSizing: "root-element" },
+  layout: { x: 1423, y: 0, width: 1280, height: 1707, intrinsicSizing: "root-element" },
 };
 
 /* ── Size chip — coral measurement label ─────────────────────────── */
@@ -392,7 +392,7 @@ export const Sizes: TempoStoryboard = {
     </div>
   ),
   name: "02 · Sizes",
-  layout: { x: 2660, y: 0, width: 1090, height: 2191, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 2272, intrinsicSizing: "root-element" },
 };
 
 function FieldStub({ label, value, multi }: { label: string; value: string; multi?: boolean }) {
@@ -623,7 +623,7 @@ export const HavnModals: TempoStoryboard = {
     </div>
   ),
   name: "03 · In-app modals",
-  layout: { x: 3990, y: 0, width: 954, height: 2721, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 2757, intrinsicSizing: "root-element" },
 };
 
 function ReasonRow({ label, selected }: { label: string; selected?: boolean }) {
