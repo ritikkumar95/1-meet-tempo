@@ -539,3 +539,13 @@ img {
   font-weight: inherit;
   letter-spacing: inherit;
 }
+
+.spice-shop h1,
+.spice-shop h2,
+.spice-shop h3,
+.spice-shop h4,
+.spice-shop h5,
+.spice-shop h6 {
+  color: inherit;
+  letter-spacing: 0;
+}
