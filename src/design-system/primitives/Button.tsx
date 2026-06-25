@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 
 export type ButtonVariant =
   | "primary"
+  | "outline"
   | "secondary"
   | "ghost"
   | "destructive"
@@ -26,15 +27,23 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
     "bg-accent hover:bg-accent-hover active:bg-accent-press text-white shadow-xs hover:shadow-sm",
+
   ink:
     "bg-ink hover:bg-ink-soft active:bg-black text-white",
+
   secondary:
     "bg-paper-warm hover:bg-paper-dark text-ink",
+
   ghost:
     "bg-transparent hover:bg-paper-warm text-ink",
+
   destructive:
     "bg-ink hover:bg-ink-soft text-white",
+
   outline:
+    "bg-transparent text-ink border border-paper-deep hover:border-ink hover:bg-paper-warm/50",
+
+  "outline-solid":
     "bg-transparent text-ink border border-paper-deep hover:border-ink hover:bg-paper-warm/50",
 };
 

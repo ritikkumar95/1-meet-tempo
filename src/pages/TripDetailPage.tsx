@@ -210,7 +210,7 @@ export function TripDetailPage() {
               </div>
             </div>
             <Link to="/messages">
-              <Button variant="outline" size="sm" className="gap-2">
+              <Button variant="outline-solid" size="sm" className="gap-2">
                 <MessageSquare size={14} /> Message
               </Button>
             </Link>

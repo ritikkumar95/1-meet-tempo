@@ -191,7 +191,7 @@ export function ListingDetailPage() {
                 ))}
               </div>
               {listing.amenities.length > 8 && (
-                <Button variant="outline" size="md" className="mt-6">
+                <Button variant="outline-solid" size="md" className="mt-6">
                   Show all {listing.amenities.length} amenities
                 </Button>
               )}
@@ -227,7 +227,7 @@ export function ListingDetailPage() {
                   </div>
                 ))}
               </div>
-              <Button variant="outline" size="md" className="mt-6">
+              <Button variant="outline-solid" size="md" className="mt-6">
                 Show all {listing.reviewCount} reviews
               </Button>
             </section>

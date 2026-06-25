@@ -106,7 +106,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: -169, y: 0, width: 1406, height: 351, intrinsicSizing: "root-element" },
+  layout: { x: -169, y: 0, width: 1406, height: 351 },
 };
 
 /* ── Page groups — each a vertical column of states (UI3 templates style) ── */
@@ -269,7 +269,7 @@ export const HomePageGroup: TempoStoryboard = {
     </div>
   ),
   name: "02 · HomePage",
-  layout: { x: 1330, y: 0, width: 1168, height: 1743, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1168, height: 1743 },
 };
 
 /* 03 · SearchPage — directory */
@@ -338,7 +338,7 @@ export const SearchPageGroup: TempoStoryboard = {
     </div>
   ),
   name: "03 · SearchPage",
-  layout: { x: 2548, y: 0, width: 1168, height: 2239, intrinsicSizing: "root-element" },
+  layout: { x: 2548, y: 0, width: 1168, height: 2239 },
 };
 
 /* 04 · ListingDetailPage */
@@ -374,7 +374,7 @@ export const ListingDetailPageGroup: TempoStoryboard = {
     </div>
   ),
   name: "04 · ListingDetailPage",
-  layout: { x: 3766, y: 0, width: 1168, height: 1743, intrinsicSizing: "root-element" },
+  layout: { x: 3766, y: 0, width: 1168, height: 1743 },
 };
 
 /* 05 · TripsPage */
@@ -414,7 +414,7 @@ export const TripsPageGroup: TempoStoryboard = {
     </div>
   ),
   name: "05 · TripsPage",
-  layout: { x: 4984, y: 0, width: 1168, height: 1247, intrinsicSizing: "root-element" },
+  layout: { x: 4984, y: 0, width: 1168, height: 1247 },
 };
 
 /* 06 · MessagesPage */
@@ -454,7 +454,7 @@ export const MessagesPageGroup: TempoStoryboard = {
     </div>
   ),
   name: "06 · MessagesPage",
-  layout: { x: 6202, y: 0, width: 1168, height: 1247, intrinsicSizing: "root-element" },
+  layout: { x: 6202, y: 0, width: 1168, height: 1247 },
 };
 
 /* 07 · WishlistsPage */
@@ -501,5 +501,5 @@ export const WishlistsPageGroup: TempoStoryboard = {
     </div>
   ),
   name: "07 · WishlistsPage",
-  layout: { x: 7420, y: 0, width: 1168, height: 1743, intrinsicSizing: "root-element" },
+  layout: { x: 7420, y: 0, width: 1168, height: 1743 },
 };

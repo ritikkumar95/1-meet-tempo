@@ -244,7 +244,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: -157, y: 0, width: 1406, height: 351, intrinsicSizing: "root-element" },
+  layout: { x: -157, y: 0, width: 1406, height: 351 },
 };
 
 /* ── 01 · Anatomy ────────────────────────────────────────────────── */
@@ -315,7 +315,7 @@ export const Anatomy: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1330, y: 0, width: 1280, height: 1062, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 1062 },
 };
 
 /* ── 02 · States ─────────────────────────────────────────────────── */
@@ -407,7 +407,7 @@ export const States: TempoStoryboard = {
     </PageShell>
   ),
   name: "02 · States",
-  layout: { x: 2660, y: 0, width: 1280, height: 2663, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 2663 },
 };
 
 /* ── 03 · Affixes ────────────────────────────────────────────────── */
@@ -481,7 +481,7 @@ export const Affixes: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · Affixes",
-  layout: { x: 3990, y: 0, width: 1280, height: 1520, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 1520 },
 };
 
 /* ── 04 · Types ──────────────────────────────────────────────────── */
@@ -573,7 +573,7 @@ export const Types: TempoStoryboard = {
     </PageShell>
   ),
   name: "04 · Types",
-  layout: { x: 5320, y: 0, width: 1280, height: 2622, intrinsicSizing: "root-element" },
+  layout: { x: 5320, y: 0, width: 1280, height: 2622 },
 };
 
 /* ── 05 · In situ ────────────────────────────────────────────────── */
@@ -669,5 +669,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "05 · In situ",
-  layout: { x: 6650, y: 0, width: 1280, height: 2459, intrinsicSizing: "root-element" },
+  layout: { x: 6650, y: 0, width: 1280, height: 2459 },
 };

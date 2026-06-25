@@ -1,9 +1,38 @@
-import type { TempoPage, TempoStoryboard } from 'tempo-sdk';
+// import type { TempoPage, TempoStoryboard } from 'tempo-sdk';
+// import { Heart, Search, Calendar, Check, Star } from 'lucide-react';
+// import type { LucideIcon } from 'lucide-react';import { TitleSpread, HavnMark, MonoText, FONT_SANS, FONT_MONO, DARK } from '@/design-system/canvas-chrome';
+// import { Button } from '@/design-system/primitives/Button';
+// import { Badge } from '@/design-system/primitives/Badge';
+import React from "react";
+
+type TempoPage = {
+  name: string;
+};
+
+type TempoStoryboard = {
+  name: string;
+  layout: {
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+  };
+  render: () => React.ReactNode;
+};
 import { Heart, Search, Calendar, Check, Star } from 'lucide-react';
-import { TitleSpread, HavnMark, MonoText, FONT_SANS, FONT_MONO, DARK } from '@/design-system/canvas-chrome';
+import type { LucideIcon } from 'lucide-react';
+
+import {
+  TitleSpread,
+  HavnMark,
+  MonoText,
+  FONT_SANS,
+  FONT_MONO,
+  DARK,
+} from '@/design-system/canvas-chrome';
+
 import { Button } from '@/design-system/primitives/Button';
 import { Badge } from '@/design-system/primitives/Badge';
-
 const page: TempoPage = {
   name: "03 · Colors",
 };
@@ -256,7 +285,7 @@ function PaletteGroup({ label, count, children }: { label: string; count: number
 }
 
 /* ── IconSwatch — icon rendered in the token's colour on a paper tile ── */
-function IconSwatch({
+ function IconSwatch({
   name,
   value,
   surface = "#ffffff",
@@ -267,7 +296,7 @@ function IconSwatch({
   value: string;
   surface?: string;
   note?: string;
-  icon?: React.ComponentType<{ size?: number; strokeWidth?: number; color?: string }>;
+  icon?: LucideIcon;
 }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -403,7 +432,7 @@ export const Anatomy: TempoStoryboard = {
         <div style={{ background: "#fff", padding: 32, borderRadius: 12, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
           <Button variant="primary">Reserve</Button>
           <Button variant="ink">Continue</Button>
-          <Button variant="outline">Share</Button>
+          <Button variant="outline-solid">Share</Button>
           <Button variant="ghost">Skip</Button>
           <MonoText size={11} color="#717171">↑ one primary · the rest are quieter</MonoText>
         </div>
@@ -479,7 +508,7 @@ export const Anatomy: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Anatomy",
-  layout: { x: 1330, y: 0, width: 1280, height: 2409, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 2409 },
 };
 
 /* ── 03 · Surfaces ───────────────────────────────────────────────── */
@@ -519,7 +548,7 @@ export const Surfaces: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · Surfaces",
-  layout: { x: 3990, y: 0, width: 1280, height: 970, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 970 },
 };
 
 /* ── 04 · Text colours ───────────────────────────────────────────── */
@@ -581,7 +610,7 @@ export const TextColours: TempoStoryboard = {
     </PageShell>
   ),
   name: "04 · Text colours",
-  layout: { x: 5320, y: 0, width: 1280, height: 1346, intrinsicSizing: "root-element" },
+  layout: { x: 5320, y: 0, width: 1280, height: 1346 },
 };
 
 /* ── 02 · System states ──────────────────────────────────────────── */
@@ -641,7 +670,7 @@ export const SystemStates: TempoStoryboard = {
     </PageShell>
   ),
   name: "02 · System states",
-  layout: { x: 2660, y: 0, width: 1280, height: 890, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 890 },
 };
 
 /* ── 05 · Icon colours ───────────────────────────────────────────── */
@@ -706,7 +735,7 @@ export const IconColours: TempoStoryboard = {
     </PageShell>
   ),
   name: "05 · Icon colours",
-  layout: { x: 6650, y: 0, width: 1280, height: 1236, intrinsicSizing: "root-element" },
+  layout: { x: 6650, y: 0, width: 1280, height: 1236 },
 };
 
 /* ── 06 · Borders ────────────────────────────────────────────────── */
@@ -784,7 +813,7 @@ export const Borders: TempoStoryboard = {
     </PageShell>
   ),
   name: "06 · Borders",
-  layout: { x: 7980, y: 0, width: 1280, height: 1499, intrinsicSizing: "root-element" },
+  layout: { x: 7980, y: 0, width: 1280, height: 1499},
 };
 
 /* ── 07 · In situ ────────────────────────────────────────────────── */
@@ -829,5 +858,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "07 · In situ",
-  layout: { x: 9310, y: 0, width: 1280, height: 909, intrinsicSizing: "root-element" },
+  layout: { x: 9310, y: 0, width: 1280, height: 909 },
 };

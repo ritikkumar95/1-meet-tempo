@@ -69,7 +69,7 @@ export function WishlistsPage() {
                 No listings saved to this wishlist yet.
               </p>
               <Link to="/search">
-                <Button variant="outline" className="mt-4">
+                <Button variant="outline-solid" className="mt-4">
                   Browse stays
                 </Button>
               </Link>
@@ -111,7 +111,7 @@ export function WishlistsPage() {
             Wishlists
           </h1>
           <Button
-            variant="outline"
+            variant="outline-solid"
             size="sm"
             className="gap-2"
             onClick={() => setShowCreate(true)}

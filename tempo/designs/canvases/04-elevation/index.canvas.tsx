@@ -221,7 +221,7 @@ transform:  translateY(-1px);`}
     </PageShell>
   ),
   name: "01 · Basics",
-  layout: { x: 1330, y: 0, width: 1280, height: 1443, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 1443 },
 };
 
 /* ── LevelRow — UI3-style per-token breakdown ────────────────────── */
@@ -370,7 +370,7 @@ export const Levels: TempoStoryboard = {
     </PageShell>
   ),
   name: "02 · Levels",
-  layout: { x: 2660, y: 0, width: 1280, height: 1643, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 1643 },
 };
 
 /* ── 03 · In situ ────────────────────────────────────────────────── */
@@ -451,5 +451,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · In situ",
-  layout: { x: 3990, y: 0, width: 1280, height: 1608, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 1608 },
 };

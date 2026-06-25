@@ -302,7 +302,7 @@ export const Basics: TempoStoryboard = {
     </PageShell>
   ),
   name: "01 · Basics",
-  layout: { x: 1330, y: 0, width: 1280, height: 2069, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 2069 },
 };
 
 /* ── 02 · Type scale ─────────────────────────────────────────────── */
@@ -365,7 +365,7 @@ export const Scale: TempoStoryboard = {
     </PageShell>
   ),
   name: "02 · Type scale",
-  layout: { x: 2660, y: 0, width: 1280, height: 2397, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 2397 },
 };
 
 /* ── 03 · In situ ────────────────────────────────────────────────── */
@@ -439,5 +439,5 @@ export const InSitu: TempoStoryboard = {
     </PageShell>
   ),
   name: "03 · In situ",
-  layout: { x: 3990, y: 0, width: 1280, height: 1565, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 1565 },
 };

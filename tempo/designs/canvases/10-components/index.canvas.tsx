@@ -138,7 +138,7 @@ export const Cover: TempoStoryboard = {
     />
   ),
   name: "00 · Cover",
-  layout: { x: -218, y: 0, width: 1406, height: 351, intrinsicSizing: "root-element" },
+  layout: { x: -218, y: 0, width: 1406, height: 351 },
 };
 
 /* ── 01 · Cards ──────────────────────────────────────────────────── */
@@ -297,7 +297,7 @@ export const CardsGroup: TempoStoryboard = {
     </MemoryRouter>
   ),
   name: "04 · Cards",
-  layout: { x: 5320, y: 0, width: 1280, height: 2303, intrinsicSizing: "root-element" },
+  layout: { x: 5320, y: 0, width: 1280, height: 2303 },
 };
 
 /* ── SearchBar modal mockups ─────────────────────────────────────── */
@@ -575,7 +575,7 @@ export const SearchBarShowcase: TempoStoryboard = {
     </MemoryRouter>
   ),
   name: "02 · SearchBar",
-  layout: { x: 2660, y: 0, width: 1280, height: 2908, intrinsicSizing: "root-element" },
+  layout: { x: 2660, y: 0, width: 1280, height: 2908 },
 };
 
 /* ── 03 · FilterChip ─────────────────────────────────────────────── */
@@ -638,7 +638,7 @@ export const FilterChipShowcase: TempoStoryboard = {
     </div>
   ),
   name: "03 · FilterChip",
-  layout: { x: 3990, y: 0, width: 1280, height: 1187, intrinsicSizing: "root-element" },
+  layout: { x: 3990, y: 0, width: 1280, height: 1187 },
 };
 
 /* ── 04 · Navbar ─────────────────────────────────────────────────── */
@@ -694,7 +694,7 @@ export const NavbarShowcase: TempoStoryboard = {
     </div>
   ),
   name: "01 · Navbar",
-  layout: { x: 1330, y: 0, width: 1280, height: 1335, intrinsicSizing: "root-element" },
+  layout: { x: 1330, y: 0, width: 1280, height: 1335 },
 };
 
 /* ── 05 · RatingStars ────────────────────────────────────────────── */
@@ -744,7 +744,7 @@ export const RatingStarsShowcase: TempoStoryboard = {
     </div>
   ),
   name: "05 · RatingStars",
-  layout: { x: 6650, y: 0, width: 1280, height: 1393, intrinsicSizing: "root-element" },
+  layout: { x: 6650, y: 0, width: 1280, height: 1393 },
 };
 
 /* ── 06 · HeartButton ────────────────────────────────────────────── */
@@ -809,5 +809,5 @@ export const HeartButtonShowcase: TempoStoryboard = {
     </div>
   ),
   name: "06 · HeartButton",
-  layout: { x: 7980, y: 0, width: 1280, height: 1384, intrinsicSizing: "root-element" },
+  layout: { x: 7980, y: 0, width: 1280, height: 1384 },
 };

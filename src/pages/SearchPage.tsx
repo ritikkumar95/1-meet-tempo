@@ -60,7 +60,7 @@ export function SearchPage() {
                 />
               ))}
             </div>
-            <Button variant="outline" size="sm" className="gap-2 shrink-0">
+            <Button variant="outline-solid" size="sm" className="gap-2 shrink-0">
               <SlidersHorizontal size={14} strokeWidth={2} />
               Filters
             </Button>
@@ -100,7 +100,7 @@ export function SearchPage() {
             <p className="text-[14px] text-ink-quiet mt-2 mb-6">
               Try adjusting or removing some of your filters.
             </p>
-            <Button onClick={clearAllFilters} variant="outline">
+            <Button onClick={clearAllFilters} variant="outline-solid">
               Remove all filters
             </Button>
           </div>
